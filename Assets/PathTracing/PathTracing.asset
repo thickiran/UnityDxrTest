@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   enable:
-    m_OverrideState: 1
+    m_OverrideState: 0
     m_Value: 1
   layerMask:
     m_OverrideState: 0
@@ -41,7 +41,6 @@ MonoBehaviour:
     m_OverrideState: 1
     m_Value: 100
     min: 0
-    max: 100
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,13 +70,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   m_AdvancedMode: 0
-  maxNumLightsPercell:
-    m_OverrideState: 0
-    m_Value: 10
-    min: 0
-    max: 24
   cameraClusterRange:
     m_OverrideState: 1
     m_Value: 30
     min: 0.001
-    max: 50
